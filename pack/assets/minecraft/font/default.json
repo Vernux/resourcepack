@@ -2,7 +2,7 @@
 		
 		{
 			"type": "bitmap",
-			"file": "minecraft:juako/admin1.png",
+			"file": "minecraft:juako/admin.png",
 			"height": 9,
 			"ascent": 9,
 			"chars": [
