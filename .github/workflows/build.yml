@@ -12,9 +12,20 @@ jobs:
 
     steps:
       - name: Clone repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # A non-shallow repository clone is required
+          fetch-depth: 0 # A non-shallow clone is required
+
+      - name: Replace <COMMIT-SHA> in version file
+        run: |
+          SHORT_SHA=$(echo "${{ github.sha }}" | cut -c1-7)
+          FILE="pack/pack.mcmeta"
+
+          # Nur ersetzen, falls Datei existiert
+          if [ -f "$FILE" ]; then
+            sed -i "s|<COMMIT-SHA>|$SHORT_SHA|g" "$FILE"
+          fi
+
       - name: Run PackSquash
         uses: ComunidadAylas/PackSquash-action@v4.0.3
         with:
@@ -24,16 +35,15 @@ jobs:
             zip_spec_conformance_level = 'high'
             output_file_path = '/tmp/pack.zip'
             
-            # Temp fix for packsquash, not including shaders for some reason
+            # Temp fix for packsquash not including shaders for some reason
             ['**/*?.fsh']
             force_include = true
             ['**/*?.vsh']
             force_include = true
-      
+
       - name: Tag and create release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: latest
           files: |
             /tmp/pack.zip
-            hash.txt
