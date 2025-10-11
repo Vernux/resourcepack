@@ -1,83 +1,12 @@
 {"providers":[
+		
 		{
 			"type": "bitmap",
-			"file": "minecraft:juako/user.png",
-			"height": 9,
-			"ascent": 9,
-			"chars": [
-				"🀄"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "minecraft:juako/vip.png",
-			"height": 9,
-			"ascent": 9,
-			"chars": [
-				"🃏"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "minecraft:juako/vip+.png",
-			"height": 9,
-			"ascent": 9,
-			"chars": [
-				"维"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "minecraft:juako/mvp.png",
-			"height": 9,
-			"ascent": 9,
-			"chars": [
-				"🅱"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "minecraft:juako/builder.png",
-			"height": 9,
-			"ascent": 9,
-			"chars": [
-				"🅾"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "minecraft:juako/helper.png",
-			"height": 9,
-			"ascent": 9,
-			"chars": [
-				"🅿"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "minecraft:juako/mod.png",
-			"height": 9,
-			"ascent": 9,
-			"chars": [
-				"⏳"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "minecraft:juako/admin.png",
+			"file": "minecraft:juako/admin1.png",
 			"height": 9,
 			"ascent": 9,
 			"chars": [
 				"\uE100"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "minecraft:juako/owner.png",
-			"height": 9,
-			"ascent": 9,
-			"chars": [
-				"德"
 			]
 		}
 
