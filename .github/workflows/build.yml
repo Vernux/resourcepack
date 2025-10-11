@@ -23,12 +23,11 @@ jobs:
 
           echo "Replacing <COMMIT-SHA> with $SHORT_SHA in $FILE"
 
-          # Nur ersetzen, wenn der Platzhalter existiert
-          if grep -q "<COMMIT-SHA>" "$FILE"; then
-            sed -i "s|<COMMIT-SHA>|$SHORT_SHA|g" "$FILE"
-          else
-            echo "WARN: Kein <COMMIT-SHA>-Platzhalter in $FILE gefunden."
-          fi
+          # Ersetze Platzhalter in der JSON-Datei
+          sed -i "s|<COMMIT-SHA>|$SHORT_SHA|g" "$FILE"
+
+          echo "Resulting file content:"
+          cat "$FILE"
 
       - name: Run PackSquash
         uses: ComunidadAylas/PackSquash-action@v4.0.3
