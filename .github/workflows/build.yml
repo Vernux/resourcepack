@@ -21,14 +21,12 @@ jobs:
           SHORT_SHA=$(echo "${{ github.sha }}" | cut -c1-7)
           echo "Using short commit SHA: $SHORT_SHA"
 
-          # Temporäres Build-Verzeichnis erstellen
           cp -r pack temp-pack
           FILE="temp-pack/pack.mcmeta"
 
-          # Platzhalter in Kopie ersetzen
           perl -pi -e "s/<COMMIT-SHA>/$SHORT_SHA/g" "$FILE"
 
-          echo "✅ Updated $FILE content:"
+          echo "Updated $FILE content:"
           cat "$FILE"
 
       - name: Run PackSquash on temp-pack
@@ -40,7 +38,6 @@ jobs:
             zip_spec_conformance_level = 'high'
             output_file_path = '/tmp/pack.zip'
 
-            # Temp fix for packsquash not including shaders for some reason
             ['**/*?.fsh']
             force_include = true
             ['**/*?.vsh']
