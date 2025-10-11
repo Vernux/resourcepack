@@ -14,35 +14,32 @@ jobs:
       - name: Clone repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Full history required for tags
+          fetch-depth: 0
 
-      - name: Replace <COMMIT-SHA> in pack.mcmeta
+      - name: Prepare pack with short commit SHA
         run: |
           SHORT_SHA=$(echo "${{ github.sha }}" | cut -c1-7)
-          FILE="pack/pack.mcmeta"
+          echo "Using short commit SHA: $SHORT_SHA"
 
-          echo "🔍 Replacing <COMMIT-SHA> with $SHORT_SHA in $FILE"
+          # Temporäres Build-Verzeichnis erstellen
+          cp -r pack temp-pack
+          FILE="temp-pack/pack.mcmeta"
 
-          if [ ! -f "$FILE" ]; then
-            echo "❌ File not found: $FILE"
-            exit 1
-          fi
-
-          # Nutze Perl, um sicher den Platzhalter zu ersetzen
+          # Platzhalter in Kopie ersetzen
           perl -pi -e "s/<COMMIT-SHA>/$SHORT_SHA/g" "$FILE"
 
-          echo "✅ Replacement done. Resulting file content:"
+          echo "✅ Updated $FILE content:"
           cat "$FILE"
 
-      - name: Run PackSquash
+      - name: Run PackSquash on temp-pack
         uses: ComunidadAylas/PackSquash-action@v4.0.3
         with:
           packsquash_version: latest
           options: |
-            pack_directory = 'pack'
+            pack_directory = 'temp-pack'
             zip_spec_conformance_level = 'high'
             output_file_path = '/tmp/pack.zip'
-            
+
             # Temp fix for packsquash not including shaders for some reason
             ['**/*?.fsh']
             force_include = true
