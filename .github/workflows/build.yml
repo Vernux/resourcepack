@@ -14,16 +14,20 @@ jobs:
       - name: Clone repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # A non-shallow clone is required
+          fetch-depth: 0 # Full history required for tags
 
-      - name: Replace <COMMIT-SHA> in version file
+      - name: Replace <COMMIT-SHA> in pack.mcmeta
         run: |
           SHORT_SHA=$(echo "${{ github.sha }}" | cut -c1-7)
           FILE="pack/pack.mcmeta"
 
-          # Nur ersetzen, falls Datei existiert
-          if [ -f "$FILE" ]; then
+          echo "Replacing <COMMIT-SHA> with $SHORT_SHA in $FILE"
+
+          # Nur ersetzen, wenn der Platzhalter existiert
+          if grep -q "<COMMIT-SHA>" "$FILE"; then
             sed -i "s|<COMMIT-SHA>|$SHORT_SHA|g" "$FILE"
+          else
+            echo "WARN: Kein <COMMIT-SHA>-Platzhalter in $FILE gefunden."
           fi
 
       - name: Run PackSquash
