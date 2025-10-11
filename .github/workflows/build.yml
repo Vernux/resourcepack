@@ -21,12 +21,17 @@ jobs:
           SHORT_SHA=$(echo "${{ github.sha }}" | cut -c1-7)
           FILE="pack/pack.mcmeta"
 
-          echo "Replacing <COMMIT-SHA> with $SHORT_SHA in $FILE"
+          echo "🔍 Replacing <COMMIT-SHA> with $SHORT_SHA in $FILE"
 
-          # Ersetze Platzhalter in der JSON-Datei
-          sed -i "s|<COMMIT-SHA>|$SHORT_SHA|g" "$FILE"
+          if [ ! -f "$FILE" ]; then
+            echo "❌ File not found: $FILE"
+            exit 1
+          fi
 
-          echo "Resulting file content:"
+          # Nutze Perl, um sicher den Platzhalter zu ersetzen
+          perl -pi -e "s/<COMMIT-SHA>/$SHORT_SHA/g" "$FILE"
+
+          echo "✅ Replacement done. Resulting file content:"
           cat "$FILE"
 
       - name: Run PackSquash
