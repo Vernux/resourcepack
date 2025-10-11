@@ -1,14 +1,30 @@
-{"providers":[
-		
-		{
-			"type": "bitmap",
-			"file": "minecraft:juako/admin.png",
-			"height": 9,
-			"ascent": 9,
-			"chars": [
-				"\uE100"
-			]
-		}
-
-]
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "font/rank.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\uE110",
+        "\uE111",
+        "\uE112",
+        "\uE113",
+        "\uE114",
+        "\uE115",
+        "\uE116",
+        "\uE117",
+        "\uE118",
+        "\uE119",
+        "\uE11A",
+        "\uE11B",
+        "\uE11C",
+        "\uE11D",
+        "\uE11E",
+        "\uE11F",
+        "\uE120",
+        "\uE121"
+      ]
+    }
+  ]
 }
