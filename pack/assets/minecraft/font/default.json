@@ -5,49 +5,49 @@
       "file": "rank/admin.png",
       "ascent": 8,
       "height": 9,
-      "chars": "\uE110"
+      "chars": ["\uE110"]
     },
     {
       "type": "bitmap",
       "file": "rank/builder.png",
       "ascent": 8,
       "height": 9,
-      "chars": "\uE111"
+      "chars": ["\uE111"]
     },
     {
       "type": "bitmap",
       "file": "rank/developer.png",
       "ascent": 8,
       "height": 9,
-      "chars": "\uE112"
+      "chars": ["\uE112"]
     },
     {
       "type": "bitmap",
       "file": "rank/helper.png",
       "ascent": 8,
       "height": 9,
-      "chars": "\uE113"
+      "chars": ["\uE113"]
     },
     {
       "type": "bitmap",
       "file": "rank/member.png",
       "ascent": 8,
       "height": 9,
-      "chars": "\uE114"
+      "chars": ["\uE114"]
     },
     {
       "type": "bitmap",
       "file": "rank/moderator.png",
       "ascent": 8,
       "height": 9,
-      "chars": "\uE115"
+      "chars": ["\uE115"]
     },
     {
       "type": "bitmap",
       "file": "rank/streamer.png",
       "ascent": 8,
       "height": 9,
-      "chars": "\uE116"
+      "chars": ["\uE116"]
     }
   ]
 }
