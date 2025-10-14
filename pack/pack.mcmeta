@@ -1,6 +1,10 @@
 {
   "pack": {
-    "pack_format": 70,
+    "min_format": [
+      69,
+      0
+    ],
+    "max_format": 70,
     "description": "§6Pandaria §7ResourcePack\nBuild-Version§0:§6 <COMMIT-SHA>"
   }
 }

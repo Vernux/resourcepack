@@ -51,9 +51,9 @@
     },
     {
       "type": "bitmap",
-      "file": "custom/pandaria.png",
-      "ascent": 64,
-      "height": 79,
+      "file": "custom/escape_menu_header.png",
+      "ascent": 81,
+      "height": 90,
       "chars": ["\uE117"]
     }
   ]
