@@ -47,14 +47,14 @@
       "file": "rank/streamer.png",
       "ascent": 8,
       "height": 9,
-      "chars": ["\uE117"]
+      "chars": ["\uE116"]
     },
     {
       "type": "bitmap",
       "file": "custom/escape_menu_header.png",
       "ascent": 81,
       "height": 90,
-      "chars": ["\uE116"]
+      "chars": ["\uE117"]
     }
   ]
 }
