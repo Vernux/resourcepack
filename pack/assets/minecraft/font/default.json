@@ -51,7 +51,7 @@
     },
     {
       "type": "bitmap",
-      "file": "custom/escape_menu_header.png",
+      "file": "custom/play_legend.png",
       "ascent": 81,
       "height": 90,
       "chars": ["\uE117"]
