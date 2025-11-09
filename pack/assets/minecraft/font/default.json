@@ -2,59 +2,5043 @@
   "providers": [
     {
       "type": "bitmap",
-      "file": "rank/admin.png",
+      "file": "minecraft:ranks/rank_0.png",
       "ascent": 8,
-      "height": 9,
-      "chars": ["\uE110"]
+      "height": 10,
+      "chars": [
+        "\ue000"
+      ]
     },
     {
       "type": "bitmap",
-      "file": "rank/builder.png",
+      "file": "minecraft:ranks/rank_1.png",
       "ascent": 8,
-      "height": 9,
-      "chars": ["\uE111"]
+      "height": 10,
+      "chars": [
+        "\ue001"
+      ]
     },
     {
       "type": "bitmap",
-      "file": "rank/developer.png",
+      "file": "minecraft:ranks/rank_2.png",
       "ascent": 8,
-      "height": 9,
-      "chars": ["\uE112"]
+      "height": 10,
+      "chars": [
+        "\ue002"
+      ]
     },
     {
       "type": "bitmap",
-      "file": "rank/helper.png",
+      "file": "minecraft:ranks/rank_3.png",
       "ascent": 8,
-      "height": 9,
-      "chars": ["\uE113"]
+      "height": 10,
+      "chars": [
+        "\ue003"
+      ]
     },
     {
       "type": "bitmap",
-      "file": "rank/member.png",
+      "file": "minecraft:ranks/rank_4.png",
       "ascent": 8,
-      "height": 9,
-      "chars": ["\uE114"]
+      "height": 10,
+      "chars": [
+        "\ue004"
+      ]
     },
     {
       "type": "bitmap",
-      "file": "rank/moderator.png",
+      "file": "minecraft:ranks/rank_5.png",
       "ascent": 8,
-      "height": 9,
-      "chars": ["\uE115"]
+      "height": 10,
+      "chars": [
+        "\ue005"
+      ]
     },
     {
       "type": "bitmap",
-      "file": "rank/streamer.png",
+      "file": "minecraft:ranks/rank_6.png",
       "ascent": 8,
-      "height": 9,
-      "chars": ["\uE116"]
+      "height": 10,
+      "chars": [
+        "\ue006"
+      ]
     },
     {
       "type": "bitmap",
-      "file": "custom/play_legend.png",
-      "ascent": 81,
-      "height": 90,
-      "chars": ["\uE117"]
+      "file": "minecraft:ranks/rank_7.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue007"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_8.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue008"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_9.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue009"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_10.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue00a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_11.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue00b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_12.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue00c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_13.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue00d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_14.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue00e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_15.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue00f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_16.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue010"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_17.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue011"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_18.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue012"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_19.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue013"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_20.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue014"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_21.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue015"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_22.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue016"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_23.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue017"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_24.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue018"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_25.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue019"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_26.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue01a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_27.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue01b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_28.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue01c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_29.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue01d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_30.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue01e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_31.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue01f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_32.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue020"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_33.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue021"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_34.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue022"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_35.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue023"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_36.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue024"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_37.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue025"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_38.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue026"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_39.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue027"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_40.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue028"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_41.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue029"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_42.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue02a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_43.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue02b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_44.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue02c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_45.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue02d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_46.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue02e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_47.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue02f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_48.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue030"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_49.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue031"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_50.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue032"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_51.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue033"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_52.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue034"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_53.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue035"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_54.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue036"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_55.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue037"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_56.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue038"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_57.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue039"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_58.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue03a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_59.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue03b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_60.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue03c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_61.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue03d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_62.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue03e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_63.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue03f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_64.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue040"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_65.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue041"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_66.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue042"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_67.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue043"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_68.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue044"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_69.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue045"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_70.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue046"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_71.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue047"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_72.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue048"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_73.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue049"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_74.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue04a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_75.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue04b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_76.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue04c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_77.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue04d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_78.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue04e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_79.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue04f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_80.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue050"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_81.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue051"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_82.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue052"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_83.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue053"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_84.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue054"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_85.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue055"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_86.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue056"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_87.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue057"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_88.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue058"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_89.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue059"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_90.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue05a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_91.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue05b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_92.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue05c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_93.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue05d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_94.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue05e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_95.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue05f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_96.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue060"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_97.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue061"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_98.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue062"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_99.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue063"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_100.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue064"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_101.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue065"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_102.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue066"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_103.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue067"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_104.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue068"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_105.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue069"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_106.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue06a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_107.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue06b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_108.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue06c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_109.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue06d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_110.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue06e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_111.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue06f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_112.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue070"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_113.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue071"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_114.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue072"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_115.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue073"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_116.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue074"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_117.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue075"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_118.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue076"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_119.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue077"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_120.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue078"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_121.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue079"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_122.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue07a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_123.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue07b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_124.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue07c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_125.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue07d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_126.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue07e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_127.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue07f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_128.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue080"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_129.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue081"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_130.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue082"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_131.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue083"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_132.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue084"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_133.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue085"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_134.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue086"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_135.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue087"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_136.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue088"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_137.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue089"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_138.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue08a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_139.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue08b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_140.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue08c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_141.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue08d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_142.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue08e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_143.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue08f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_144.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue090"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_145.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue091"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_146.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue092"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_147.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue093"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_148.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue094"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_149.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue095"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_150.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue096"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_151.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue097"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_152.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue098"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_153.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue099"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_154.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue09a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_155.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue09b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_156.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue09c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_157.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue09d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_158.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue09e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_159.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue09f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_160.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0a0"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_161.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0a1"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_162.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0a2"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_163.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0a3"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_164.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0a4"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_165.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0a5"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_166.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0a6"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_167.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0a7"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_168.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0a8"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_169.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0a9"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_170.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0aa"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_171.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0ab"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_172.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0ac"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_173.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0ad"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_174.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0ae"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_175.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0af"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_176.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0b0"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_177.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0b1"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_178.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0b2"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_179.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0b3"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_180.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0b4"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_181.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0b5"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_182.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0b6"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_183.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0b7"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_184.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0b8"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_185.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0b9"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_186.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0ba"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_187.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0bb"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_188.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0bc"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_189.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0bd"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_190.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0be"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_191.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0bf"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_192.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0c0"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_193.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0c1"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_194.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0c2"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_195.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0c3"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_196.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0c4"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_197.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0c5"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_198.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0c6"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_199.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0c7"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_200.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0c8"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_201.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0c9"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_202.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0ca"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_203.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0cb"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_204.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0cc"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_205.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0cd"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_206.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0ce"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_207.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0cf"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_208.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0d0"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_209.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0d1"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_210.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0d2"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_211.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0d3"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_212.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0d4"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_213.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0d5"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_214.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0d6"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_215.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0d7"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_216.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0d8"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_217.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0d9"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_218.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0da"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_219.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0db"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_220.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0dc"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_221.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0dd"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_222.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0de"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_223.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0df"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_224.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0e0"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_225.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0e1"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_226.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0e2"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_227.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0e3"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_228.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0e4"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_229.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0e5"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_230.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0e6"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_231.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0e7"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_232.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0e8"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_233.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0e9"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_234.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0ea"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_235.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0eb"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_236.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0ec"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_237.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0ed"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_238.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0ee"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_239.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0ef"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_240.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0f0"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_241.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0f1"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_242.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0f2"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_243.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0f3"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_244.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0f4"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_245.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0f5"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_246.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0f6"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_247.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0f7"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_248.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0f8"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_249.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0f9"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_250.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0fa"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_251.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0fb"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_252.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0fc"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_253.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0fd"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_254.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0fe"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_255.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue0ff"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_256.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue100"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_257.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue101"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_258.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue102"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_259.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue103"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_260.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue104"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_261.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue105"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_262.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue106"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_263.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue107"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_264.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue108"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_265.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue109"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_266.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue10a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_267.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue10b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_268.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue10c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_269.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue10d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_270.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue10e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_271.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue10f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_272.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue110"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_273.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue111"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_274.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue112"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_275.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue113"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_276.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue114"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_277.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue115"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_278.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue116"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_279.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue117"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_280.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue118"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_281.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue119"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_282.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue11a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_283.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue11b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_284.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue11c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_285.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue11d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_286.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue11e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_287.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue11f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_288.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue120"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_289.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue121"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_290.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue122"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_291.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue123"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_292.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue124"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_293.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue125"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_294.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue126"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_295.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue127"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_296.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue128"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_297.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue129"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_298.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue12a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_299.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue12b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_300.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue12c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_301.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue12d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_302.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue12e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_303.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue12f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_304.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue130"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_305.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue131"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_306.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue132"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_307.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue133"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_308.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue134"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_309.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue135"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_310.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue136"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_311.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue137"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_312.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue138"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_313.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue139"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_314.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue13a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_315.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue13b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_316.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue13c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_317.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue13d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_318.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue13e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_319.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue13f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_320.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue140"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_321.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue141"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_322.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue142"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_323.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue143"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_324.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue144"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_325.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue145"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_326.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue146"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_327.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue147"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_328.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue148"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_329.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue149"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_330.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue14a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_331.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue14b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_332.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue14c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_333.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue14d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_334.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue14e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_335.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue14f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_336.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue150"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_337.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue151"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_338.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue152"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_339.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue153"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_340.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue154"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_341.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue155"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_342.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue156"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_343.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue157"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_344.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue158"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_345.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue159"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_346.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue15a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_347.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue15b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_348.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue15c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_349.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue15d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_350.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue15e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_351.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue15f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_352.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue160"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_353.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue161"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_354.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue162"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_355.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue163"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_356.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue164"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_357.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue165"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_358.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue166"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_359.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue167"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_360.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue168"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_361.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue169"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_362.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue16a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_363.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue16b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_364.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue16c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_365.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue16d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_366.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue16e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_367.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue16f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_368.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue170"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_369.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue171"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_370.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue172"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_371.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue173"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_372.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue174"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_373.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue175"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_374.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue176"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_375.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue177"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_376.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue178"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_377.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue179"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_378.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue17a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_379.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue17b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_380.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue17c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_381.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue17d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_382.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue17e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_383.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue17f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_384.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue180"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_385.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue181"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_386.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue182"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_387.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue183"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_388.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue184"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_389.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue185"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_390.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue186"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_391.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue187"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_392.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue188"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_393.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue189"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_394.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue18a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_395.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue18b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_396.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue18c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_397.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue18d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_398.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue18e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_399.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue18f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_400.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue190"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_401.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue191"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_402.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue192"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_403.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue193"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_404.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue194"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_405.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue195"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_406.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue196"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_407.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue197"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_408.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue198"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_409.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue199"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_410.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue19a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_411.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue19b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_412.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue19c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_413.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue19d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_414.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue19e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_415.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue19f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_416.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1a0"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_417.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1a1"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_418.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1a2"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_419.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1a3"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_420.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1a4"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_421.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1a5"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_422.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1a6"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_423.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1a7"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_424.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1a8"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_425.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1a9"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_426.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1aa"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_427.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1ab"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_428.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1ac"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_429.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1ad"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_430.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1ae"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_431.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1af"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_432.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1b0"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_433.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1b1"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_434.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1b2"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_435.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1b3"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_436.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1b4"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_437.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1b5"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_438.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1b6"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_439.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1b7"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_440.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1b8"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_441.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1b9"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_442.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1ba"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_443.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1bb"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_444.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1bc"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_445.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1bd"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_446.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1be"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_447.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1bf"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_448.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1c0"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_449.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1c1"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_450.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1c2"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_451.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1c3"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_452.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1c4"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_453.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1c5"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_454.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1c6"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_455.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1c7"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_456.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1c8"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_457.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1c9"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_458.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1ca"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_459.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1cb"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_460.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1cc"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_461.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1cd"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_462.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1ce"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_463.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1cf"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_464.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1d0"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_465.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1d1"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_466.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1d2"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_467.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1d3"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_468.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1d4"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_469.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1d5"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_470.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1d6"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_471.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1d7"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_472.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1d8"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_473.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1d9"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_474.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1da"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_475.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1db"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_476.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1dc"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_477.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1dd"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_478.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1de"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_479.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1df"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_480.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1e0"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_481.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1e1"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_482.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1e2"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_483.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1e3"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_484.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1e4"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_485.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1e5"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_486.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1e6"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_487.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1e7"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_488.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1e8"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_489.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1e9"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_490.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1ea"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_491.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1eb"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_492.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1ec"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_493.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1ed"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_494.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1ee"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_495.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1ef"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_496.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1f0"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_497.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1f1"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_498.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1f2"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_499.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1f3"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_500.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1f4"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_501.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1f5"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_502.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1f6"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_503.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1f7"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_504.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1f8"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_505.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1f9"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_506.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1fa"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_507.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1fb"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_508.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1fc"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_509.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1fd"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_510.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1fe"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_511.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue1ff"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_512.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue200"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_513.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue201"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_514.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue202"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_515.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue203"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_516.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue204"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_517.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue205"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_518.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue206"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_519.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue207"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_520.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue208"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_521.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue209"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_522.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue20a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_523.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue20b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_524.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue20c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_525.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue20d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_526.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue20e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_527.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue20f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_528.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue210"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_529.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue211"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_530.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue212"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_531.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue213"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_532.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue214"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_533.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue215"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_534.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue216"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_535.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue217"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_536.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue218"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_537.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue219"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_538.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue21a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_539.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue21b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_540.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue21c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_541.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue21d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_542.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue21e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_543.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue21f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_544.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue220"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_545.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue221"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_546.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue222"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_547.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue223"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_548.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue224"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_549.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue225"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_550.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue226"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_551.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue227"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_552.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue228"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_553.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue229"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_554.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue22a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_555.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue22b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_556.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue22c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_557.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue22d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_558.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue22e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:ranks/rank_559.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue22f"
+      ]
     }
   ]
 }
