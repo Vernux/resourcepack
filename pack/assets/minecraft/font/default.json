@@ -2,6 +2,14 @@
   "providers": [
     {
       "type": "bitmap",
+      "file": "minecraft:twitch/glitch_flat_purple.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue29f"
+      ]
+    },{
+      "type": "bitmap",
       "file": "minecraft:twitch/broadcaster.png",
       "ascent": 8,
       "height": 10,
