@@ -2,6 +2,51 @@
   "providers": [
     {
       "type": "bitmap",
+      "file": "minecraft:twitch/broadcaster.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue30f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:twitch/lead_moderator.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue31f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:twitch/moderator.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue32f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:twitch/subscriber.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue33f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:twitch/vip.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue34f"
+      ]
+    },
+    {
+      "type": "bitmap",
       "file": "minecraft:ranks/rank_0.png",
       "ascent": 8,
       "height": 10,
