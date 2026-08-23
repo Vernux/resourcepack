@@ -56,7 +56,7 @@
     {
       "type": "bitmap",
       "file": "minecraft:ranks/admin.png",
-      "ascent": 8,
+      "ascent": 10,
       "height": 8,
       "chars": [
         "\ue000"
