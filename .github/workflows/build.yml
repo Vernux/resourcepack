@@ -30,7 +30,7 @@ jobs:
           cat "$FILE"
 
       - name: Run PackSquash on temp-pack
-        uses: PackSquash/packsquash-action@v1
+        uses: ComunidadAylas/PackSquash-action@v4
         with:
           packsquash_version: latest
           options_toml: |
