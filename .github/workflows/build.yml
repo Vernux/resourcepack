@@ -33,7 +33,7 @@ jobs:
         uses: ComunidadAylas/PackSquash-action@v4
         with:
           packsquash_version: latest
-          options_toml: |
+          options: |
             pack_directory = 'temp-pack'
             zip_spec_conformance_level = 'high'
             output_file_path = '/tmp/pack.zip'
