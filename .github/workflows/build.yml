@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: Clone repository
-        uses: actions/checkout@v7
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
@@ -30,10 +30,10 @@ jobs:
           cat "$FILE"
 
       - name: Run PackSquash on temp-pack
-        uses: ComunidadAylas/PackSquash-action@v4
+        uses: PackSquash/packsquash-action@v1
         with:
           packsquash_version: latest
-          options: |
+          options_toml: |
             pack_directory = 'temp-pack'
             zip_spec_conformance_level = 'high'
             output_file_path = '/tmp/pack.zip'
@@ -44,7 +44,7 @@ jobs:
             force_include = true
 
       - name: Tag and create release
-        uses: softprops/action-gh-release@v3
+        uses: softprops/action-gh-release@v2
         with:
           tag_name: latest
           files: |
