@@ -2,92 +2,147 @@
   "providers": [
     {
       "type": "bitmap",
-      "file": "minecraft:twitch/glitch_flat_purple.png",
+      "file": "pandaria:font/ranks/owner.png",
       "ascent": 8,
-      "height": 10,
-      "chars": [
-        "\ue29f"
-      ]
-    },{
-      "type": "bitmap",
-      "file": "minecraft:twitch/broadcaster.png",
-      "ascent": 8,
-      "height": 10,
-      "chars": [
-        "\ue30f"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:twitch/lead_moderator.png",
-      "ascent": 8,
-      "height": 10,
-      "chars": [
-        "\ue31f"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:twitch/moderator.png",
-      "ascent": 8,
-      "height": 10,
-      "chars": [
-        "\ue32f"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:twitch/subscriber.png",
-      "ascent": 8,
-      "height": 10,
-      "chars": [
-        "\ue33f"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:twitch/vip.png",
-      "ascent": 8,
-      "height": 10,
-      "chars": [
-        "\ue34f"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:ranks/admin.png",
-      "ascent": 10,
-      "height": 8,
+      "height": 9,
       "chars": [
         "\ue000"
       ]
     },
     {
       "type": "bitmap",
-      "file": "minecraft:ranks/moderator.png",
+      "file": "pandaria:font/ranks/admin.png",
       "ascent": 8,
-      "height": 8,
+      "height": 9,
       "chars": [
         "\ue001"
       ]
     },
     {
       "type": "bitmap",
-      "file": "minecraft:ranks/builder.png",
+      "file": "pandaria:font/ranks/dev.png",
       "ascent": 8,
-      "height": 8,
+      "height": 9,
       "chars": [
         "\ue002"
       ]
     },
     {
       "type": "bitmap",
-      "file": "minecraft:ranks/spieler.png",
+      "file": "pandaria:font/ranks/mod.png",
       "ascent": 8,
-      "height": 8,
+      "height": 9,
       "chars": [
         "\ue003"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "pandaria:font/ranks/supporter.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue004"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "pandaria:font/ranks/builder.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue005"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "pandaria:font/ranks/vip.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue006"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "pandaria:font/ranks/spieler.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue007"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "pandaria:font/ranks/live.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue008"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "pandaria:font/twitch/broadcaster.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [
+        "\ue30f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "pandaria:font/twitch/moderator.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [
+        "\ue32f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "pandaria:font/twitch/subscriber.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [
+        "\ue33f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "pandaria:font/twitch/vip.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [
+        "\ue34f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "pandaria:font/twitch/lead_moderator.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [
+        "\ue31f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "pandaria:font/twitch/glitch_flat_purple.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [
+        "\ue300"
+      ]
+    },
+    {
+      "type": "space",
+      "advances": {
+        "\ue100": 1,
+        "\ue101": 2,
+        "\ue102": 4,
+        "\ue103": -1
+      }
     }
   ]
 }
