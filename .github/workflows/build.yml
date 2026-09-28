@@ -35,7 +35,7 @@ jobs:
           packsquash_version: latest
           options: |
             pack_directory = 'temp-pack'
-            zip_spec_conformance_level = 'high'
+            zip_spec_conformance_level = 'disregard'
             output_file_path = '/tmp/pack.zip'
 
             ['**/*?.fsh']
