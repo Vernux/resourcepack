@@ -11,6 +11,51 @@
     },
     {
       "type": "bitmap",
+      "file": "pandaria:font/ranks/moderator.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue001"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "pandaria:font/ranks/builder.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue002"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "pandaria:font/ranks/vip.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue003"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "pandaria:font/ranks/creator.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue004"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "pandaria:font/ranks/spieler.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue005"
+      ]
+    },
+    {
+      "type": "bitmap",
       "file": "pandaria:font/twitch/broadcaster.png",
       "ascent": 7,
       "height": 8,
