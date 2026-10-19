@@ -169,12 +169,12 @@ def write_asset(path, data):
 def write_all():
     caps = textures()
     base = ASSETS / "models" / "item" / "tastentakt"
-    write_json(base / "cap.json", {  # a flat quad, both sides readable from either direction; the plugin scales it
-        "elements": [{
-            "from": [0, 0, 8], "to": [16, 16, 8], "shade": False,
-            "faces": {side: {"uv": [0, 0, 16, 16], "texture": "#layer0"} for side in ("north", "south")},
-        }],
-    })
+    # A flat quad readable from both sides (an ItemDisplay may turn the model around); the plugin scales it to the cap size.
+    # The two faces sit 0.02 apart so they never z-fight, whether back faces are culled or not.
+    write_json(base / "cap.json", {"elements": [
+        {"from": [0, 0, z], "to": [16, 16, z], "shade": False, "faces": {side: {"uv": [0, 0, 16, 16], "texture": "#layer0"}}}
+        for side, z in (("south", 8.01), ("north", 7.99))
+    ]})
     for name, ((w, h), canvas) in caps.items():
         write_asset(ASSETS / "textures" / "item" / "tastentakt" / f"{name}.png", png(w, h, canvas))
         write_json(base / f"{name}.json", {"parent": "pandariamc:item/tastentakt/cap",
