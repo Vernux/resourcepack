@@ -1,0 +1,22 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        " ": 4
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "pandariamc:font/tastentakt_pixel.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [
+        "\ue041\ue042\ue043\ue044\ue045\ue046\ue047\ue048",
+        "\ue049\ue04b\ue04e\ue050\ue052\ue053\ue054\ue055",
+        "\ue057\ue030\ue031\ue032\ue033\ue034\ue035\ue036",
+        "\ue037\ue038\ue039\ue078\ue0d7\ue021\u0000\u0000"
+      ]
+    }
+  ]
+}

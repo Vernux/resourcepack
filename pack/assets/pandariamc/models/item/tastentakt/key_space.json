@@ -1,0 +1,6 @@
+{
+  "parent": "pandariamc:item/tastentakt/cap",
+  "textures": {
+    "layer0": "pandariamc:item/tastentakt/key_space"
+  }
+}
