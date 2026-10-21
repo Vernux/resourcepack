@@ -10,8 +10,18 @@ All under pack/assets/pandariamc/, the ids are `pandariamc:zeichnen/<name>` (a n
   clear            the red-lidded bin (slot 8, "Alles löschen")
 each as items/zeichnen/<name>.json + models/item/zeichnen/<name>.json (item/generated, layer0) + textures/item/zeichnen/<name>.png.
 
-The plugin side (flag `packLook` in plugins/Zeichnen/config.json, default on) and the release steps: games/zeichnen/CLAUDE.md in the
-PandariaMc repo. Re-run after editing a grid or a color; `--preview sheet.png` also writes an 8x contact sheet of all icons
+Also the canvas font `pandariamc:zeichnen_canvas` (font/zeichnen_canvas.json + textures/font/zeichnen_canvas.png): the canvas wall is one
+TextDisplay per row, every cell one glyph in its own exact RGB. The font has U+E000 = a solid white 8x8 square and U+E001 = a space glyph
+with advance -1. A bitmap glyph's advance is its opaque width + 1 (client rule, BitmapProvider), so U+E000 alone would leave a 1 px gap
+between cells; the plugin writes every cell as "U+E000 U+E001", and the -1 pulls the next cell back onto the square's edge: the cells
+tile exactly. The codepoints and the id are mirrored in the plugin (CanvasGeometry.CELLS / FONT).
+
+And the picker font `pandariamc:zeichnen_picker` (font/zeichnen_picker.json + textures/font/zeichnen_picker.png): the marker of the drawer's "Farbfeld"
+color picker (a panel of the same text displays, ColorFieldLayout in the plugin). U+E100 = a 24x24 px ring (white, 1 px black outline on both sides,
+hollow centre) = 3 cells of the picker, U+E101 = a space glyph with advance -1 (the ring is 24 px wide = advance 25, the -1 makes it 24). The ring
+carries its own colors (white + black), so the plugin writes it in plain white and it reads on every color of the square and the strip.
+
+The plugin side (the pack look is always on, there is no switch) and the release steps: games/zeichnen/CLAUDE.md in the PandariaMc repo. Re-run after editing a grid or a color; `--preview sheet.png` also writes an 8x contact sheet of all icons
 (plus the swatch tinted with a few sample colors, as the client multiplies it) to look at.
 """
 import colorsys
@@ -102,6 +112,16 @@ def brush(size):
     return rows
 
 
+# the canvas font: one solid square (all texels opaque white, the text color tints it) + the -1 closing space
+CANVAS_FONT_ID = "pandariamc:zeichnen_canvas"
+CANVAS_GLYPH, CANVAS_CLOSE = "\ue000", "\ue001"
+CANVAS_CELL = 8  # px; the font's `height` and the texture size, the plugin's CanvasGeometry.CELLS assumes advance 8 = this
+
+# the picker font: the ring marker of the "Farbfeld" picker
+PICKER_FONT_ID = "pandariamc:zeichnen_picker"
+RING_GLYPH, RING_CLOSE = "\ue100", "\ue101"
+RING_SIZE = 24  # px; the font's `height` and the texture size, the plugin's ColorFieldLayout.MARKER assumes advance 24 = this
+
 ICONS = {
     "color": [layer(SWATCH)],
     "eraser": [layer(eraser())],
@@ -129,7 +149,52 @@ def write_all():
             model["tints"] = [{"type": "minecraft:dye", "default": -1}]
         write_json(ASSETS / "items" / "zeichnen" / f"{name}.json", {"model": model})
     print(f"{len(ICONS)} icons written to {ASSETS}")
+    write_canvas_font()
+    write_picker_font()
     return canvases
+
+
+def write_canvas_font():
+    """font/zeichnen_canvas.json + its 8x8 solid white texture (ascent 7 / height 8 = the glyph spans px 0..8 below the line top, like the
+    default font's block; advance = 8 + 1 for the glyph, -1 for the closing space = 8 per cell)."""
+    texture = ASSETS / "textures" / "font" / "zeichnen_canvas.png"
+    texture.parent.mkdir(parents=True, exist_ok=True)
+    texture.write_bytes(png(CANVAS_CELL, CANVAS_CELL, {(x, y): (255, 255, 255, 255) for x in range(CANVAS_CELL) for y in range(CANVAS_CELL)}))
+    write_json(ASSETS / "font" / "zeichnen_canvas.json", {"providers": [
+        {"type": "bitmap", "file": "pandariamc:font/zeichnen_canvas.png", "ascent": CANVAS_CELL - 1, "height": CANVAS_CELL, "chars": [CANVAS_GLYPH]},
+        {"type": "space", "advances": {CANVAS_CLOSE: -1}},
+    ]})
+    print(f"font {CANVAS_FONT_ID} written to {ASSETS}")
+
+
+def ring():
+    """The marker: 3 px white ring, 1 px black outline outside and inside, transparent hole; the outline touches the texture's edges (the client
+    trims a glyph's width to its last opaque column, so a ring that stopped short would shift the plugin's centering)."""
+    centre = (RING_SIZE - 1) / 2
+    pixels = {}
+    for y in range(RING_SIZE):
+        for x in range(RING_SIZE):
+            d = math.hypot(x - centre, y - centre)
+            if 8.0 <= d <= 10.9:
+                pixels[(x, y)] = (255, 255, 255, 255)
+            elif 7.0 <= d < 8.0 or 10.9 < d <= 11.95:
+                pixels[(x, y)] = (0x1E, 0x1F, 0x22, 255)
+            else:
+                pixels[(x, y)] = (0, 0, 0, 0)
+    return pixels
+
+
+def write_picker_font():
+    """font/zeichnen_picker.json + the ring texture (ascent 7 / height 24 = the glyph spans px 0..24 below the line top, like the canvas font's
+    glyph but taller; advance = 24 + 1 for the glyph, -1 for the closing space = 24)."""
+    texture = ASSETS / "textures" / "font" / "zeichnen_picker.png"
+    texture.parent.mkdir(parents=True, exist_ok=True)
+    texture.write_bytes(png(RING_SIZE, RING_SIZE, ring()))
+    write_json(ASSETS / "font" / "zeichnen_picker.json", {"providers": [
+        {"type": "bitmap", "file": "pandariamc:font/zeichnen_picker.png", "ascent": CANVAS_CELL - 1, "height": RING_SIZE, "chars": [RING_GLYPH]},
+        {"type": "space", "advances": {RING_CLOSE: -1}},
+    ]})
+    print(f"font {PICKER_FONT_ID} written to {ASSETS}")
 
 
 def tinted(canvas, rgb):

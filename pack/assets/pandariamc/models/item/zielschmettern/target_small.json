@@ -1,0 +1,6 @@
+{
+  "parent": "pandariamc:item/zielschmettern/disc",
+  "textures": {
+    "layer0": "pandariamc:item/zielschmettern/target_small"
+  }
+}

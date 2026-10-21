@@ -1,0 +1,19 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "pandariamc:font/zeichnen_picker.png",
+      "ascent": 7,
+      "height": 24,
+      "chars": [
+        "\ue100"
+      ]
+    },
+    {
+      "type": "space",
+      "advances": {
+        "\ue101": -1
+      }
+    }
+  ]
+}
