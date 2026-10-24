@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "pandariamc:item/cookie/challenge_ohne_gold"
+  }
+}
