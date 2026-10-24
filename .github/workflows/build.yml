@@ -43,6 +43,10 @@ jobs:
             ['**/*?.vsh']
             force_include = true
 
+            # The trailer is one animated strip: 135 frames of 180 px = 24300 px high, over the 8192 default
+            ['assets/pandariamc/textures/item/trailer.png']
+            maximum_width_and_height = 32768
+
       - name: Tag and create release
         uses: softprops/action-gh-release@v3
         with:

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "pandariamc:item/zeichnen/fill",
+    "layer1": "pandariamc:item/zeichnen/fill_paint"
+  }
+}
