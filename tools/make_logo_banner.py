@@ -4,7 +4,7 @@
 Source: tools/source/pandariamc_logo.webp (2000x667, painted logo on a pure black background). The black void around the
 logo is made transparent by a flood fill from the border (dark outlines inside the letters stay), the picture is resampled to
 480x160 and cut into two 240x160 cells side by side = glyphs U+E500 (left) and U+E501 (right); U+E502 is a space glyph of -1
-(every bitmap glyph advances width + 1, the space closes that gap). Both glyphs: height 40, ascent 7 (top edge = top of the
+(every bitmap glyph advances width + 1, the space closes that gap). Both glyphs: height 40, ascent 4 (the picture starts 3 px below the line top) (top edge = top of the
 text line) -> scale 160 -> 40 = 0.25, a glyph shows 60x40 GUI px, the whole logo 120x40 (all exact in binary, no rounding gap).
 Written: pack/assets/pandariamc/font/logo_banner.json + textures/font/logo_banner_{0,1}.png. Idempotent.
 `--preview OUT.png` also writes a mock of a tab list header (translucent dark panel, GUI scale 3) over a light and a dark backdrop.
@@ -56,7 +56,7 @@ def main():
         print(f"{path.name}: {path.stat().st_size} bytes")
         cells.append(cell.convert("RGBA"))
     write_json(ASSETS / "font" / "logo_banner.json", {"providers": [
-        {"type": "bitmap", "file": f"pandariamc:font/logo_banner_{i}.png", "ascent": 7, "height": HEIGHT, "chars": [chr(0xE500 + i)]}
+        {"type": "bitmap", "file": f"pandariamc:font/logo_banner_{i}.png", "ascent": 4, "height": HEIGHT, "chars": [chr(0xE500 + i)]}
         for i in range(2)
     ] + [{"type": "space", "advances": {"": -1}}]})
     if preview:
