@@ -89,10 +89,6 @@ def layer(rows, sym=None, dx=0, dy=0, outline="K", palette=None):
     return rows, sym, dx, dy, outline, palette or PALETTE
 
 
-def recolor(rows, table):
-    return [r.translate(str.maketrans(table)) for r in rows]
-
-
 FACE_A = [  # 8x8 player face: brown hair, light skin, blue eyes
     "llllllld",
     "lldllldd",
@@ -132,15 +128,15 @@ SWORD = [  # tip top-right, hilt bottom-left; mirrored for the second sword of c
     ".i..............",
     "................",
 ]
-SWORD_PAL = mat("o_dmlh", "iron") | mat("__sS", "iron") | mat("_k__wW", "wood") | mat("____i", "gold")
+SWORD_PAL = mat("okdmlh", "iron") | mat("___sS", "iron") | mat("___Ww", "wood") | mat("____i", "gold")
 
-BANNER = [  # 7 wide: crossbar, cloth (letters c/C/D/E = light, mid, dark, darkest), white rhombus, pole
+BANNER = [  # 7 wide: crossbar, cloth (letters c/C/D/E = light, mid, dark, darkest), white stripe, pole
     "hwwwwww",
     ".cCCCD.",
     ".cCCCD.",
-    ".cCvCD.",
-    ".cvvvD.",
-    ".cCvCD.",
+    ".vvvvV.",
+    ".VVVVV.",
+    ".cCCCD.",
     ".cCCCD.",
     ".cCCCD.",
     ".CCCDD.",
@@ -151,7 +147,7 @@ BANNER = [  # 7 wide: crossbar, cloth (letters c/C/D/E = light, mid, dark, darke
 
 
 def banner(material):
-    return mat("ok__wh", "wood") | mat("__EDCc", material) | colors(v=0xF2EEEA)
+    return mat("ok__wh", "wood") | mat("__EDCc", material) | colors(v=0xF2EEEA, V=0xC4BCB6)
 
 
 ICONS = {
@@ -173,7 +169,7 @@ ICONS = {
         "......dddd......",
         "................",
         "................"], outline="ko",
-        palette=mat("okdmlh", "iron") | mat("__f_F", "diamond") | mat("__Rr", "red") | colors(w=0xF6F6F6, W=0xB8B9BE))],
+        palette=mat("okdmlh", "iron") | mat("__F", "blue") | colors(f=0x222C5E) | mat("___Rr", "red") | colors(w=0xF6F6F6, W=0xB8B9BE))],
     # lobby hotbar: name tag (slot 0) - paper tag, blue header band, string loop through the hole
     "profile": [
         layer([
@@ -196,12 +192,12 @@ ICONS = {
             palette=mat("okdmlh", "paper") | mat("___DB", "blue") | colors(t=0x8A7450)),
         layer([
             "................",
+            "................",
             "...sss..........",
             "..s...S.........",
-            ".s.....S........",
-            ".s.....S........",
-            "..s....S........",
-            "..s.............",
+            "..s...S.........",
+            "..s...S.........",
+            "...SSS..........",
             "...S............",
             "...S............",
             "................",
@@ -210,7 +206,7 @@ ICONS = {
             "................",
             "................",
             "................",
-            "................"], outline=None, palette=mat("__S_s", "string")),
+            "................"], outline=None, palette=colors(s=0xE6E6E6, S=0x5E5E62)),
     ],
     # lobby hotbar: Twitch live list (slot 7) - an old wooden TV, purple glass screen, redstone "on air" lamp
     "live": [
@@ -248,7 +244,7 @@ ICONS = {
             "..mmmmmmmmmmmd..",
             "...d........d...",
             "................"], outline="ko",
-            palette=mat("okdmlh", "wood") | mat("___qpP", "twitch") | mat("____RX", "red") | colors(G=0xE4D6FF, r=0xA82E31)),
+            palette=mat("okdmlh", "wood") | mat("__qpP", "twitch") | mat("____RX", "red") | colors(G=0xE4D6FF, r=0xA82E31)),
     ],
     # profile menu "Einstellungen"; settings hotbar item of marathon, snake, bingo - an iron cog
     "settings": [layer([
@@ -280,8 +276,8 @@ ICONS = {
             "..dlllllllmp....",
             "..dllpppplmp....",
             "..dllPPPPlmp....",
-            "..dlllllllmp....",
-            "..dlllllllmp....",
+            "..dllllmllmp....",
+            "..dlmllllmmp....",
             "..dmmmmmmmmp....",
             "..dmmmmmmmdp....",
             "...pBppppppP....",
@@ -400,7 +396,7 @@ ICONS = {
     # profile menu "Freunde" - two player heads
     "friends": [
         layer(FACE_A, dx=7, dy=1, outline="ko",
-              palette=mat("ok_dl", "hair") | mat("__mSsw", "skin") | colors(w=0xF4F4F4, b=0x4B5DA9, n=0x8A4A3A)),
+              palette=mat("ok_dl", "hair") | mat("__mSs", "skin") | colors(w=0xF4F4F4, b=0x4B5DA9, n=0x8A4A3A)),
         layer(FACE_B, dx=1, dy=6, outline="ko",
               palette=mat("ok_dl", "hair_dark") | mat("__mSs", "skin_dark") | colors(w=0xF4F4F4, e=0x23A852, n=0x4A2A1E)),
     ],
@@ -459,8 +455,8 @@ ICONS = {
         "..hLBBBBYYYYyd..",
         "..hLBBBBYYYYyd..",
         "..hLBBBBYYYYyd..",
-        "..lBBBBhlYYYyd..",
-        "..lBBBBmdYYyyd..",
+        "..lBBBBBYYYYyd..",
+        "..lBBBBBYYYyyd..",
         "..lBBBBBYYYyyd..",
         "..lBBBBBYYYyyd..",
         "..lDBBBBYYyyyd..",
@@ -470,7 +466,7 @@ ICONS = {
         "......mddd......",
         "................",
         "................"], outline="ko",
-        palette=mat("okdmlh", "iron") | mat("___DBL", "blue") | mat("____yY", "yellow"))],
+        palette=mat("okdmlh", "iron") | mat("___DBL", "blue") | mat("___yY", "yellow"))],
     # "Sonstige" - a leather bundle tied with string
     "category_other": [layer([
         "................",
