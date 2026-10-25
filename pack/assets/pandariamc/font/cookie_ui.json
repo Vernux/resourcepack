@@ -1,0 +1,99 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        "\ue020": -1,
+        "\ue021": -2,
+        "\ue022": -4,
+        "\ue023": -8,
+        "\ue024": -16,
+        "\ue025": -32,
+        "\ue026": -64,
+        "\ue027": -128,
+        "\ue028": -256
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "pandariamc:font/cookie_ui_bakery.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": [
+        "\ue000"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "pandariamc:font/cookie_ui_milestones.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": [
+        "\ue001"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "pandariamc:font/cookie_ui_prestige.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": [
+        "\ue002"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "pandariamc:font/cookie_ui_research.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": [
+        "\ue003"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "pandariamc:font/cookie_ui_skins.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": [
+        "\ue004"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "pandariamc:font/cookie_ui_achievements.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": [
+        "\ue005"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "pandariamc:font/cookie_ui_challenges.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": [
+        "\ue006"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "pandariamc:font/cookie_ui_stats.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": [
+        "\ue007"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "pandariamc:font/cookie_ui_tab.png",
+      "ascent": -94,
+      "height": 21,
+      "chars": [
+        "\ue010"
+      ]
+    }
+  ]
+}
