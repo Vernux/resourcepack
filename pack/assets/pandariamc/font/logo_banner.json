@@ -1,0 +1,28 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "pandariamc:font/logo_banner_0.png",
+      "ascent": 7,
+      "height": 40,
+      "chars": [
+        "\ue500"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "pandariamc:font/logo_banner_1.png",
+      "ascent": 7,
+      "height": 40,
+      "chars": [
+        "\ue501"
+      ]
+    },
+    {
+      "type": "space",
+      "advances": {
+        "\ue502": -1
+      }
+    }
+  ]
+}
