@@ -35,7 +35,7 @@ SEASONAL = [37, 39, 41, 43]
 ITEMS = {
     "bakery": [11, 15] + BUILDINGS + SEASONAL,
     "milestones": [13] + BUILDINGS + SEASONAL,
-    "prestige": [19, 21, 23, 25, 28, 30, 32, 34],
+    "prestige": [19, 21, 23, 25, 28, 30, 32, 34] + SEASONAL,  # SHOP_SLOTS: 8 upgrades + the 4 click upgrades (37-43)
     "research": [10, 28, 11, 20, 29, 38, 21, 12, 13, 30, 31, 32, 33],
     "skins": list(range(19, 26)),
     "achievements": [s for row in (10, 19, 28, 37) for s in range(row, row + 7)],
