@@ -32,20 +32,21 @@ LABELS = ["Bäckerei", "Gebäude-Upgrades", "Prestige-Shop", "Forschung", "Keks-
 # Slots the plugin fills per tab (mirrors CookieMenu's slot constants; slot 4 header, 45-52 tabs and 53 close are on every tab).
 BUILDINGS = list(range(19, 26)) + [30, 31, 32]
 SEASONAL = [37, 39, 41, 43]
+SYNERGIES = [10, 11, 12, 14, 15, 16, 28, 29, 33, 34]  # CookieMenu.SYNERGY_SLOTS
 ITEMS = {
     "bakery": [11, 15] + BUILDINGS + SEASONAL,
-    "milestones": [13] + BUILDINGS + SEASONAL,
+    "milestones": [13] + BUILDINGS + SEASONAL + SYNERGIES,
     "prestige": [19, 21, 23, 25, 28, 30, 32, 34] + SEASONAL,  # SHOP_SLOTS: 8 upgrades + the 4 click upgrades (37-43)
     "research": [10, 28, 11, 20, 29, 38, 21, 12, 13, 30, 31, 32, 33],
     "skins": list(range(19, 26)),
     "achievements": [s for row in (10, 19, 28, 37) for s in range(row, row + 7)],
     "challenges": [13, 19, 21, 23, 25, 28, 30, 32, 34],
-    "stats": [22],
+    "stats": [19, 21, 23, 25],  # four cards: baking, clicks, progress, prestige
 }
 # Info/status items of a tab get the gold frame like the header.
-GOLD = {"milestones": [13], "challenges": [13], "stats": [22]}
-# Challenge top lists (a row below each challenge) get the cream "board" frame.
-BOARD = {"challenges": [28, 30, 32, 34]}
+GOLD = {"milestones": [13], "challenges": [13], "stats": [19, 21, 23, 25]}
+# Challenge top lists (a row below each challenge) and the synergies get the cream "board" frame.
+BOARD = {"challenges": [28, 30, 32, 34], "milestones": SYNERGIES}  # + the synergies, apart from the building upgrades
 # CookieResearch prerequisites (RESEARCH_SLOTS order): each route goes from slot to slot through the listed cells.
 RESEARCH_ROUTES = [(10, 11), (10, 19, 20), (28, 19, 20), (28, 29), (28, 37, 38), (20, 21), (11, 12), (11, 12, 13),
                    (12, 13, 14, 15, 24, 33), (29, 30), (30, 31), (31, 32), (32, 33)]
