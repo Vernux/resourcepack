@@ -136,6 +136,22 @@ MODELS = {
         box([4, 4, 5], [12, 8, 11], "accent"), box([6, 8, 6], [10, 10, 10], "accent_dark"), box([12.5, 4, 8], [13.5, 13, 9], "wood_dark"),
         box([10, 12, 8], [16, 13.5, 9], "gray"),
     ],
+    "tower_gift": [
+        box([3, 0, 3], [13, 2, 13], "stone"), box([4, 2, 4], [12, 9, 12], "dark"), box([3.5, 8, 3.5], [12.5, 9.5, 12.5], "gray"),
+        box([5, 9, 5], [11, 9.75, 11], "green"), box([6, 9.75, 6], [7.5, 11.25, 7.5], "green_dark"),
+        box([9, 9.75, 8.5], [10, 10.75, 9.5], "green"), box([7, 5, 12], [9, 7, 15], "gray"), box([7.5, 4, 15], [8.5, 5, 15.5], "green"),
+    ],
+    "trap_stacheln": [box([1, 0, 1], [15, 1, 15], "wood_dark")] + [
+        part for x in (3, 7, 11) for z in (3, 7, 11)
+        for part in (box([x, 1, z], [x + 2, 4, z + 2], "gray"), box([x + 0.5, 4, z + 0.5], [x + 1.5, 5.5, z + 1.5], "secondary"))
+    ],
+    "trap_mine": [
+        box([3, 0, 3], [13, 1.5, 13], "dark"), box([4, 1.5, 4], [12, 2.5, 12], "stone"), box([6.5, 2.5, 6.5], [9.5, 3.5, 9.5], "red"),
+        box([7.25, 3.5, 7.25], [8.75, 4, 8.75], "accent"),
+    ],
+    "shot_gift": [
+        box([5, 5, 5], [11, 11, 11], "green"), box([6, 9, 6], [8, 11, 8], "green_dark"), box([9, 4, 9], [10.5, 5.5, 10.5], "green_deep"),
+    ],
     "shot_bolt": [
         box([7.5, 7.5, 2], [8.5, 8.5, 14], "wood"), box([7, 7, 14], [9, 9, 16], "secondary"), box([7.5, 6, 2], [8.5, 10, 4], "white"),
     ],
@@ -147,6 +163,53 @@ MODELS = {
         box([6, 2, 6], [10, 15, 10], "primary_light"), box([4, 0, 4], [12, 2, 12], "primary_dark"),
     ],
 }
+
+# Branch models (tower level 3-5): the tower's own model plus a few boxes that show the branch from afar.
+# tower_<name>_a / tower_<name>_b = branch A / B of TowerType (see games/towerdefense/CLAUDE.md for which is which).
+Y45 = {"angle": 45, "axis": "y", "origin": [8, 8, 8]}
+BRANCHES = {
+    "bolzen": (  # Repetierer: magazine drum + a second bolt / Durchschlag: one heavy bolt with a red tip
+        [box([6, 13, 6], [10, 16, 10], "gray"), box([6.5, 16, 6.5], [9.5, 16.5, 9.5], "dark"), box([5.5, 12, 4], [6.5, 13, 14], "wood")],
+        [box([7, 11.5, 1], [9, 13.5, 16], "dark"), box([7.25, 11.75, 16], [8.75, 13.25, 17], "red")],
+    ),
+    "kanone": (  # Großkaliber: a wide muzzle / Panzerbrecher: red bands and a steel spike
+        [box([4.5, 3.5, 13], [11.5, 10.5, 16], "dark"), box([5.5, 4.5, 16], [10.5, 9.5, 16.5], "black")],
+        [box([5.75, 4.75, 11], [10.25, 9.25, 12], "red"), box([5.75, 4.75, 13], [10.25, 9.25, 13.5], "red"),
+         box([7.5, 6.5, 16], [8.5, 7.5, 18], "secondary")],
+    ),
+    "frost": (  # Permafrost: ice spikes on the corners / Eissturm: floating shards around the top
+        [box([2, 3, 2], [4, 8, 4], "white"), box([12, 3, 12], [14, 8, 14], "white"), box([12, 3, 2], [14, 6, 4], "ice"),
+         box([2, 3, 12], [4, 6, 14], "ice")],
+        [box([1, 12, 7], [3, 14, 9], "cyan", Y45), box([13, 12, 7], [15, 14, 9], "cyan", Y45), box([7, 13, 1], [9, 15, 3], "ice", Y45),
+         box([7, 13, 13], [9, 15, 15], "ice", Y45)],
+    ),
+    "blitz": (  # Gewitter: two extra rods / Überladung: red coils and a white orb
+        [box([2, 3, 7], [3, 13, 9], "copper"), box([13, 3, 7], [14, 13, 9], "copper"), box([1.5, 13, 6.5], [3.5, 14, 9.5], "accent"),
+         box([12.5, 13, 6.5], [14.5, 14, 9.5], "accent")],
+        [box([5, 10, 5], [11, 11, 11], "red"), box([5, 6.5, 5], [11, 7.5, 11], "red"), box([6.5, 16.5, 6.5], [9.5, 18.5, 9.5], "white")],
+    ),
+    "scharf": (  # Elite: a big scope / Schnellfeuer: two more barrels
+        [box([7, 15, 5], [9, 17, 11], "primary_dark"), box([7.25, 15.25, 11], [8.75, 16.75, 11.25], "primary_light")],
+        [box([9.25, 13, 3], [10.75, 14.5, 16], "black"), box([5.25, 13, 3], [6.75, 14.5, 16], "black")],
+    ),
+    "gift": (  # Seuche: a gas cloud over the cauldron / Säure: an acid tank with a long nozzle
+        [box([4, 11, 4], [12, 14, 12], "green_dark"), box([5.5, 14, 5.5], [10.5, 16, 10.5], "green")],
+        [box([11, 2, 11], [14, 13, 14], "gray"), box([11.5, 6, 10.75], [13.5, 12, 11], "green"), box([7, 6, 14], [9, 8, 17], "black"),
+         box([7.5, 6.5, 17], [8.5, 7.5, 17.5], "accent")],
+    ),
+    "verstaerker": (  # Kommandoposten: a red banner / Radar: a tilted dish
+        [box([11.5, 3, 11.5], [12.5, 16, 12.5], "wood_dark"), box([12.5, 13, 11.75], [16, 15.5, 12.25], "red")],
+        [box([7.5, 16, 7.5], [8.5, 18, 8.5], "gray"), box([4, 18, 6], [12, 19, 10], "secondary", {"angle": 22.5, "axis": "x", "origin": [8, 18, 8]})],
+    ),
+    "goldmine": (  # Schatzkammer: a treasure chest and coins / Bank: a white portico with a green sign
+        [box([3, 4, 9], [7, 7, 12], "wood_dark"), box([3.5, 7, 9.5], [6.5, 8, 11.5], "accent"), box([9, 4, 4.5], [11, 5, 6.5], "accent")],
+        [box([3, 5, 2], [4, 12, 3], "white"), box([12, 5, 2], [13, 12, 3], "white"), box([2, 12, 1.5], [14, 13.5, 4], "white"),
+         box([7, 13.5, 2], [9, 15, 3], "green")],
+    ),
+}
+for _name, (_a, _b) in BRANCHES.items():
+    MODELS[f"tower_{_name}_a"] = MODELS[f"tower_{_name}"] + _a
+    MODELS[f"tower_{_name}_b"] = MODELS[f"tower_{_name}"] + _b
 
 
 # --- texture + json ---
